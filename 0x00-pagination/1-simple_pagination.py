@@ -5,6 +5,7 @@ from typing import Tuple, List
 import csv
 import math
 
+
 class Server:
     """ server class __"""
     DATA_FILE = "Popular_Baby_Names.csv"
@@ -35,7 +36,8 @@ class Server:
             return dt[start:end]
         except IndexError:
             return []
-        
+
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """doc cdoc doc """
     index = page * page_size - page_size

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""contain a function named index_range that takes two integer 
+"""contain a function named index_range that takes two integer
 arguments page and page_size. """
 
 
