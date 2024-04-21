@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-""" Module doc """
+""" Module documentation  """
 
 from base_caching import BaseCaching
 
 
 class LFUCache(BaseCaching):
-    """Class doc"""
+    """ Class documentation
+    """
 
     def __init__(self):
         """ Constructor """
